@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Medication Record</string>
+    <string name="nav_open">nav_open</string>
+    <string name="nav_close">nav_close</string>
+    <string name="dasturdan_ro_yxatdan_o_tish">Dasturdan ro\'yxatdan o\'tish</string>
+    <string name="ro_yxatga_dori_qo_shish">Ro\'yxatga dori qo\'shish</string>
+    <string name="dorini_ro_yxatdan_o_chirish">Dorini ro\'yxatdan o\'chirish</string>
+    <string name="qo_llanma">Qo\'llanma</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="name">name</string>
 </resources>

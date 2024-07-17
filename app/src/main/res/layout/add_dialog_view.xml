@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="15dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dori nomi"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chiqarilgan vaqti"
+            android:textColor="@color/black"
+            android:inputType="date"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_end_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eskirish vaqti"
+            android:textSize="18sp"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_prise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hozirgi narxi "
+            android:textSize="18sp"
+            android:inputType="numberSigned"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Miqdori "
+            android:textSize="18sp"
+            android:inputType="numberSigned"
+            android:textStyle="italic"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="100dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="Dori haqida qisqacha malumot kiriting"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/save"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Saqlash"
+    android:textColor="@color/teal_200"
+    />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

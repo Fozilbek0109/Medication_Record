@@ -5,11 +5,12 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [DoriModell::class], version = 1)//1
+@Database(entities = [DoriModell::class,UserModel::class], version = 1)//1
 
 abstract class DatabaseLocal: RoomDatabase() { //2 room databasedan instanse olingan
 
     abstract fun dooriDao(): DoriDAO //3
+    abstract fun userDao():UserDAO
     companion object {
         var instance: DatabaseLocal? = null
         @Synchronized
